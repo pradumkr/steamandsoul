@@ -9,8 +9,7 @@ import {
 } from 'lucide-react';
 
 const operatingHours = [
-  { day: 'Monday - Friday', hours: '11:00 AM - 10:00 PM' },
-  { day: 'Saturday - Sunday', hours: '10:00 AM - 11:00 PM' },
+  { day: 'Tuesday - Sunday', hours: '04:00 PM - 10:00 PM' },
 ];
 
 const OutletInfo: React.FC = () => {
@@ -65,7 +64,7 @@ const OutletInfo: React.FC = () => {
           Address
         </h3>
         <p className="text-gray-700">
-          Gayeshpur Golbazar, Nadia, WB - 741234
+          Near Maa Tara Steel Furniture, Golbazar, Gayeshpur, Kalyani, WB - 741234
         </p>
       </motion.div>
       
@@ -75,10 +74,16 @@ const OutletInfo: React.FC = () => {
           Contact
         </h3>
         <a 
-          href="tel:+917044314801" 
+          href="tel:+916291586609" 
           className="text-gray-700 hover:text-red-600 transition-colors block mb-2"
         >
-          +91 7044314801
+          +91 6291586609
+        </a>
+        <a 
+          href="tel:+919748850931" 
+          className="text-gray-700 hover:text-red-600 transition-colors block mb-2"
+        >
+          +91 9748850931
         </a>
         <a 
           href="mailto:steamandsoul09@gmail.com" 
@@ -96,7 +101,7 @@ const OutletInfo: React.FC = () => {
           className="btn btn-primary w-full flex items-center justify-center"
         >
           <MessageCircle className="mr-2" size={20} />
-          Order via WhatsApp (Upto 3 KM)
+          Order via WhatsApp (Upto 2 KM)
         </a>
       </motion.div>
     </motion.div>
