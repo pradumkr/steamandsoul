@@ -3,56 +3,66 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Instagram } from 'lucide-react';
 
+// Images
+import SNSInsta01 from '../assets/SNS-insta01.jpg';
+import SNSInsta02 from '../assets/SNS-insta02.jpg';
+import SNSInsta03 from '../assets/SNS-insta03.jpg';
+import SNSInsta04 from '../assets/SNS-insta04.jpg';
+import SNSInsta05 from '../assets/SNS-insta05.jpg';
+import SNSInsta06 from '../assets/SNS-insta06.jpg';
+import SNSInsta07 from '../assets/SNS-insta07.jpg';
+import SNSInsta08 from '../assets/SNS-insta08.jpg';
+
 // Normally we would use a proper Instagram API or embed, but for this demo
 // we'll use placeholder images from Pexels that represent what might be on Instagram
 const instagramPosts = [
   {
     id: 1,
-    image: 'https://images.pexels.com/photos/6646233/pexels-photo-6646233.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: SNSInsta01,
     likes: 124,
-    caption: 'Our chef preparing fresh momos! #SteamAndSoul #FreshFood'
+    caption: 'We look good outside, but we taste even better inside 😎🥟'
   },
   {
     id: 2,
-    image: 'https://images.pexels.com/photos/4828093/pexels-photo-4828093.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: SNSInsta02,
     likes: 98,
-    caption: 'New chocolate momos just dropped! #DessertMomos #SweetTreats'
+    caption: 'Customer satisfaction is our priority! #HappyCustomers'
   },
   {
     id: 3,
-    image: 'https://images.pexels.com/photos/5409037/pexels-photo-5409037.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: SNSInsta03,
     likes: 145,
-    caption: 'The perfect weekend starter! #MomoLove #WeekendVibes'
+    caption: 'From our kitchen to your cravings — we’re officially open! 🎉.'
   },
   {
     id: 4,
-    image: 'https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: SNSInsta04,
     likes: 87,
     caption: 'Our cozy dining area is ready for you! #DineWithUs'
   },
   {
     id: 5,
-    image: 'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: SNSInsta05,
     likes: 201,
-    caption: 'Meet the team that makes magic happen! #TeamSteamAndSoul'
+    caption: 'Customer satisfaction is our priority! #HappyCustomers'
   },
   {
     id: 6,
-    image: 'https://images.pexels.com/photos/7441761/pexels-photo-7441761.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: SNSInsta06,
     likes: 176,
     caption: 'Fresh ingredients, always! #QualityFirst #FreshMomos'
   },
   {
     id: 7,
-    image: 'https://images.pexels.com/photos/4478397/pexels-photo-4478397.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: SNSInsta07,
     likes: 132,
-    caption: 'Tandoori momos coming right up! #HotAndSpicy'
+    caption: 'The real secret ingredient? Amazing customers like YOU! 😍'
   },
   {
     id: 8,
-    image: 'https://images.pexels.com/photos/9609849/pexels-photo-9609849.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: SNSInsta08,
     likes: 154,
-    caption: 'Customer satisfaction is our priority! #HappyCustomers'
+    caption: 'Our chef preparing fresh momos! #SteamAndSoul #FreshFood'
   },
 ];
 
