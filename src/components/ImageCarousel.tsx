@@ -448,7 +448,12 @@ const ImageCarousel: React.FC = () => {
           },
         }}
         navigation
-        pagination={{ clickable: true }}
+        pagination={{
+          clickable: true,
+          el: '.custom-pagination',
+          bulletClass: 'swiper-pagination-bullet',
+          bulletActiveClass: 'swiper-pagination-bullet-active'
+        }}
         autoplay={{
           delay: 3000,
           disableOnInteraction: false,
@@ -486,6 +491,7 @@ const ImageCarousel: React.FC = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="custom-pagination flex overflow-x-auto sm:justify-center px-4 py-2 no-scrollbar space-x-2" />
     </motion.div>
   );
 };

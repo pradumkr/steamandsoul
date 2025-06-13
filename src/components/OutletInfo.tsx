@@ -95,13 +95,13 @@ const OutletInfo: React.FC = () => {
       
       <motion.div variants={itemVariants}>
         <a 
-          href="https://wa.me/917044314801" 
+          href="tel:+916291586609" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="btn btn-primary w-full flex items-center justify-center"
         >
           <MessageCircle className="mr-2" size={20} />
-          Order via WhatsApp (Upto 2 KM)
+          To Order Call Now (Upto 2 KM)
         </a>
       </motion.div>
     </motion.div>
