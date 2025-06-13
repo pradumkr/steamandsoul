@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 
 const operatingHours = [
-  { day: 'Tuesday - Sunday', hours: '04:00 PM - 10:00 PM' },
+  { day: 'Tuesday - Sunday', hours: '06:00 PM - 10:30 PM' },
 ];
 
 const OutletInfo: React.FC = () => {
